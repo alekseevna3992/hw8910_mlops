@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "model_id": "fixture-B",
+  "artifact_uri": "model-B.txt",
+  "model_sha256": "aa9acb8f890a6f9cc302209c574cf7b405d777dbd4b21d7bb5f2a8f22b497dd2",
+  "protocol_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "golden_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "runtime_sha256": "bc7bd5a4806e2e0e3b8569666b251d6c59a8d8e01e37fc37bf95b534023ca547",
+  "runtime": {
+    "base_revision": "fixture-only",
+    "tokenizer_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "template_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "generation": {
+      "max_new_tokens": 32,
+      "do_sample": false
+    },
+    "dtype": "float32"
+  },
+  "file_hashes": {
+    "model-B.txt": "c24b37b2da1bf259ac05a7924c8f625966fba7c376e22b6628d36166b5555c60"
+  }
+}

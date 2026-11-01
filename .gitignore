@@ -1,10 +1,27 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
-.env
-models/
-.cache/
-*.safetensors
-*.bin
-*.pt
-.lab*/
+*.pyo
+.venv/
+venv/
+
+# Fetched model artifacts (реальные веса не в git)
+artifacts/real/model/
+artifacts/real/tokenizer/
+
+# Workspaces прототипа
+.lab/
+.lab-before/
+.lab-after/
+.lab-second/
+cache/
+cache-prefect/
+
+# Служебное
+.prefect/
+.prefect-local/
+logs/
+.fixed/
+.broken/
+results*.csv
+*.tmp

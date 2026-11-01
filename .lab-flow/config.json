@@ -1,0 +1,6 @@
+{
+  "tokenizer_revision": "r1",
+  "template_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "max_length": 128,
+  "code_revision": "prepare-v1"
+}

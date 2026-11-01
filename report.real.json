@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "passed": true,
+  "evaluation_run_id": "eval-real-0480036a",
+  "model_id": "qwen3-0.6b-lora-v1",
+  "model_sha256": "84ddd9917369a5529e30f076d255467ec454119b0926c0e4e6f37d04c891393f",
+  "protocol_sha256": "8a18d000fd95206a67810bcc6dca27888ae33c63b859e794932cc0fac4219646",
+  "golden_sha256": "e336aa43fb40318a5be56743493c89af209af0cc9d46c112d401c6f4b9d78de2",
+  "runtime_sha256": "daee38dd88f6a97eb0ff976347e134d22858832eaddfca6f8bcc307c592dc4f5",
+  "metrics": {
+    "accuracy": 0.86,
+    "format_rate": 1.0
+  },
+  "slices": {
+    "cardiology": {
+      "n": 10,
+      "correct": 9,
+      "valid": 10,
+      "errors": 0,
+      "accuracy": 0.9,
+      "format_rate": 1.0
+    },
+    "pulmonology": {
+      "n": 10,
+      "correct": 8,
+      "valid": 10,
+      "errors": 0,
+      "accuracy": 0.8,
+      "format_rate": 1.0
+    },
+    "endocrinology": {
+      "n": 10,
+      "correct": 9,
+      "valid": 10,
+      "errors": 0,
+      "accuracy": 0.9,
+      "format_rate": 1.0
+    },
+    "gastro": {
+      "n": 10,
+      "correct": 8,
+      "valid": 10,
+      "errors": 0,
+      "accuracy": 0.8,
+      "format_rate": 1.0
+    },
+    "nephrology": {
+      "n": 10,
+      "correct": 9,
+      "valid": 10,
+      "errors": 0,
+      "accuracy": 0.9,
+      "format_rate": 1.0
+    }
+  },
+  "behavioral": {
+    "n": 3,
+    "passed": 3,
+    "format": "PASS",
+    "paraphrase": "PASS",
+    "refusal": "PASS"
+  },
+  "base_val_loss": 3.427285406152019,
+  "final_val_loss": 2.6116533230233787
+}
